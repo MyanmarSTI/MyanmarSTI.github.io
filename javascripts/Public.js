@@ -118,7 +118,7 @@ $(document).ready(function(){
 	$('.imgFileBtn').change(function(event) {
 
 
-		var str = '<img src="images/theme/' + 'm_bg.jpg' +'" />'
+		var str = '<img src="images/theme/' + '6_bg.jpg' +'" />'
 
 		sends_message('Marta', 1, str); // sends_message(昵称,头像id,聊天内容);
 
