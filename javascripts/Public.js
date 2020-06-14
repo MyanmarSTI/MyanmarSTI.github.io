@@ -118,9 +118,9 @@ $(document).ready(function(){
 	$('.imgFileBtn').change(function(event) {
 
 
-		var str = '<img src="images/chatimg/' + '1/201503/agafsdfeaef.jpg' +'" />'
+		var str = '<img src="images/theme/' + 'm_bg.jpg' +'" />'
 
-		sends_message('绿巨人', 1, str); // sends_message(昵称,头像id,聊天内容);
+		sends_message('Marta', 1, str); // sends_message(昵称,头像id,聊天内容);
 
 
 		// 滚动条滚到最下面
@@ -140,7 +140,7 @@ $(document).ready(function(){
 		str = str.replace(/\[em_([0-9]*)\]/g,'<img src="images/face/$1.gif" alt="" />');
 		if(str!='') {
 
-			sends_message('绿巨人', 1, str); // sends_message(昵称,头像id,聊天内容);
+			sends_message('Marta', 1, str); // sends_message(昵称,头像id,聊天内容);
 
 
 			// 滚动条滚到最下面
@@ -181,7 +181,7 @@ $(document).ready(function(){
 
 
 
-// -----下边的代码不用管---------------------------------------
+// -----------------------------------------------------
 
 
 
@@ -234,7 +234,7 @@ $(document).ready(function(){
 	});
 	function sends_message (userName, userPortrait, message) {
 		if(message!='') {
-			$('.main .chat_info').html($('.main .chat_info').html() + '<li class="right"><img src="images/user/' + userPortrait + '.png" alt=""><b>' + userName + '</b><i>09:15</i><div class="aaa">' + message  +'</div></li>');
+			$('.main .chat_info').html($('.main .chat_info').html() + '<li class="right"><img src="images/user/' + userPortrait + '.png" alt=""><b>' + userName + '</b><i>14:37</i><div class="aaa">' + message  +'</div></li>');
 		}
 	}
 	$('.text input').keypress(function(e) { 
