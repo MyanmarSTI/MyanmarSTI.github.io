@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -12,164 +12,144 @@
 	<script type="text/javascript" src="rolling/js/rolling.js"></script>
 	<script type="text/javascript" src="javascripts/Public.js"></script>
 </head>
-<body class="room">
+<body class="rooms">
 	<div class="scrollbar-macosx">
 		<div class="header">
 			<div class="toptext">
-				<a href="index.html">
-					<span class="glyphicon glyphicon-arrow-left"></span> Back to Home
+				<a href="#">
+					<span class="glyphicon glyphicon-home"></span>
+					<a href="index.html"><b>Myanmar STI Policy Formulation - Stage 3 - Modules 6: Agriculture</b></a>
 				</a>
 			</div>
 			<ul class="topnavlist">
-				<li class="userlist">
-					<a><span class="glyphicon glyphicon-th-list"></span>Users</a>
+				<li class="userinfo">
+					<a><span class="glyphicon glyphicon-user"></span><b>User</b></a>
 					<div class="popover fade bottom in">
 						<div class="arrow"></div>
-						<h3 class="popover-title">4 users online</h3>
-						<div class="popover-content scrollbar-macosx">
-							<ul>
-								<li>
-									<img src="images/user/1.png" alt="portrait_1">
-									<b>Marta</b>
-								</li>
-								<li>
-									<img src="images/user/2.png" alt="portrait_1">
-									<b>Rafael</b>
-								</li>
-								<li>
-									<img src="images/user/3.png" alt="portrait_1">
-									<b>Thazin</b>
-								</li>
-								<li>
-									<img src="images/user/4.png" alt="portrait_1">
-									<b>Yekai</b>
-								</li>
-								</li>
-							</ul>
+						<h3 class="popover-title">User Information</h3>
+						<div class="popover-content">
+							<p class="user_portrait">
+								<img ptimg="1" portrait_id="1" src="images/user/1.png" alt="user_portrait">
+							</p>
+							<p class="select_portrait">
+								<img portrait_id="1" src="images/user/1.png" alt="portrait_1" class="t">
+								<img portrait_id="2" src="images/user/2.png" alt="portrait_1">
+								<img portrait_id="3" src="images/user/3.png" alt="portrait_1">
+								<img portrait_id="4" src="images/user/4.png" alt="portrait_1">
+								<!-- <img portrait_id="5" src="images/user/5.png" alt="portrait_1">
+								<img portrait_id="6" src="images/user/6.png" alt="portrait_1">
+								<img portrait_id="7" src="images/user/7.png" alt="portrait_1">
+								<img portrait_id="8" src="images/user/8.png" alt="portrait_1">
+								<img portrait_id="9" src="images/user/9.png" alt="portrait_1">
+								<img portrait_id="10" src="images/user/10.png" alt="portrait_1">
+								<img portrait_id="11" src="images/user/11.png" alt="portrait_1">
+								<img portrait_id="12" src="images/user/12.png" alt="portrait_1"> -->
+							</p>
+							<p class="user_name">
+								<input type="text" class="form-control" placeholder="User Name">
+								<button id="userinfo_sub" type="button" class="btn btn-primary btn-block">OK</button>
+							</p>
 						</div>
 					</div>
+				</li>
+				<li class="theme">
+					<a><span class="glyphicon glyphicon-leaf"></span><b>Theme</b></a>
+					<div class="popover fade bottom in">
+						<div class="arrow"></div>
+						<h3 class="popover-title">Choose a Theme</h3>
+						<div class="popover-content">
+							<img theme_id="1" src="images/theme/1_xs.jpg" alt="Theme">
+							<img theme_id="2"  src="images/theme/2_xs.jpg" alt="Theme">
+							<img theme_id="3"  src="images/theme/3_xs.jpg" alt="Theme">
+							<img theme_id="4"  src="images/theme/4_xs.jpg" alt="Theme">
+							<img theme_id="5"  src="images/theme/5_xs.jpg" alt="Theme">
+							<img theme_id="6"  src="images/theme/6_xs.jpg" alt="Theme">
+							<img theme_id="7"  src="images/theme/7_xs.jpg" alt="Theme">
+							<img theme_id="8"  src="images/theme/8_xs.jpg" alt="Theme">
+							<img theme_id="9"  src="images/theme/9_xs.jpg" alt="Theme">
+						</div>
+					</div>
+				</li>
+				<li class="document">
+					<a><span class="glyphicon glyphicon-folder-open"></span><b>Docs</b></a>
+					<div class="popover fade bottom in">
+						<div class="arrow"></div>
+						<a href="https://www.google.com/docs/about/"> <font size="3" color="white">n</font><font size="3" color="black">Documents</font><font size="3" color="white">n</font><font size="3" color="black">(This</font><font size="3" color="white">n</font><font size="3" color="black">is</font><font size="3" color="white">n</font><font size="3" color="black">a</font><font size="3" color="white">n</font><font size="3" color="black">link</font><font size="3" color="white">n</font><font size="3" color="black">to</font><font size="3" color="white">n</font><font size="3" color="black">docs)</font> </a>
+						<div class="popover-content">
+							<!-- <p class="user_portrait">
+								<img ptimg="1" portrait_id="1" src="images/user/1.png" alt="user_portrait">
+							</p>
+							<p class="select_portrait">
+								<img portrait_id="1" src="images/user/1.png" alt="portrait_1" class="t">
+								<img portrait_id="2" src="images/user/2.png" alt="portrait_1">
+								<img portrait_id="3" src="images/user/3.png" alt="portrait_1">
+								<img portrait_id="4" src="images/user/4.png" alt="portrait_1">
+							</p> -->
+							<p class="search">
+								<input type="text" class="form-control" placeholder="search documents and learning materials">
+								<button id="userinfo_sub" type="button" class="btn btn-primary btn-block">Search</button>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="meeting">
+					<a><span class="glyphicon glyphicon-calendar"></span><b>Meeting</b></a>
+					<div class="popover fade bottom in">
+						<div class="arrow"></div>
+						<a href="https://zoom.us/"> <font size="3" color="white">n</font><font size="3" color="black">Meetings</font><font size="3" color="white">n</font><font size="3" color="black">(This</font><font size="3" color="white">n</font><font size="3" color="black">is</font><font size="3" color="white">n</font><font size="3" color="black">a</font><font size="3" color="white">n</font><font size="3" color="black">link</font><font size="3" color="white">n</font><font size="3" color="black">to</font><font size="3" color="white">n</font><font size="3" color="black">zoom)</font> </a>
+						<div class="popover-content">
+							<p class="search">
+								<input type="text" class="form-control" placeholder="search calendar">
+								<button id="userinfo_sub" type="button" class="btn btn-primary btn-block">Search</button>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="chatroom">
+					<a href="room.html"><span class="glyphicon glyphicon-send"></span><b>Chat</b></a>
 				</li>
 			</ul>
 			<div class="clapboard hidden"></div>
 		</div>
-		<div class="main container">
-			<div class="col-md-12">
-				<ul class="chat_info">
-					<li class="left">
-						<img src="images/user/1.png" alt="">
-						<b>Marta</b>
-						<i>14:34</i>
-						<div>Hello, everyone!</div>
-					</li>
-					<li class="systeminfo">
-						<span>【Rafael】joins the chat room</span>
-					</li>
-					<li class="left">
-						<img src="images/user/2.png" alt="">
-						<b>Rafael</b>
-						<i>14:35</i>
-						<div>Let's talk!</div>
-					</li>
-				</ul>
-			</div>
+
+		<!-- <div align=center valign=middle></div>
+		<font size="2" color="black">row 1, cell 1</font>
+		<table border="1">
+			<tr>
+				<td><font size="2" color="black">row 1, cell 1</font></td>
+				<td><font size="2" color="black">row 1, cell 2</font></td>
+			</tr>
+			<tr>
+				<td><font size="2" color="black">row 2, cell 1</font></td>
+				<td><font size="2" color="black">row 2, cell 2</font></td>
+			</tr>
+		</table>
 		</div>
-		<div class="input">
-			<div class="center">
-				<div class="tools">
 
-					<span class="glyphicon glyphicon-heart face_btn"></span>
-					<span class="glyphicon glyphicon-picture imgFileico"></span>
-
-					<input type="file" class="imgFileBtn hidden" accept="image/*">
-					<div class="faces popover fade top in">
-						<div class="arrow"></div>
-						<h3 class="popover-title">Emoticons</h3>
-						<div class="popover-content scrollbar-macosx">
-							<img src="images/face/1.gif" alt="1">
-							<img src="images/face/2.gif" alt="2">
-							<img src="images/face/3.gif" alt="3">
-							<img src="images/face/4.gif" alt="4">
-							<img src="images/face/5.gif" alt="5">
-							<img src="images/face/6.gif" alt="6">
-							<img src="images/face/7.gif" alt="7">
-							<img src="images/face/8.gif" alt="8">
-							<img src="images/face/9.gif" alt="9">
-							<img src="images/face/10.gif" alt="10">
-							<img src="images/face/11.gif" alt="11">
-							<img src="images/face/12.gif" alt="">
-							<img src="images/face/13.gif" alt="">
-							<img src="images/face/14.gif" alt="">
-							<img src="images/face/15.gif" alt="">
-							<img src="images/face/16.gif" alt="">
-							<img src="images/face/17.gif" alt="">
-							<img src="images/face/18.gif" alt="">
-							<img src="images/face/19.gif" alt="">
-							<img src="images/face/20.gif" alt="">
-							<img src="images/face/21.gif" alt="">
-							<img src="images/face/22.gif" alt="">
-							<img src="images/face/23.gif" alt="">
-							<img src="images/face/24.gif" alt="">
-							<img src="images/face/25.gif" alt="">
-							<img src="images/face/26.gif" alt="">
-							<img src="images/face/27.gif" alt="">
-							<img src="images/face/28.gif" alt="">
-							<img src="images/face/29.gif" alt="">
-							<img src="images/face/30.gif" alt="">
-							<img src="images/face/31.gif" alt="">
-							<img src="images/face/32.gif" alt="">
-							<img src="images/face/33.gif" alt="">
-							<img src="images/face/34.gif" alt="">
-							<img src="images/face/35.gif" alt="">
-							<img src="images/face/36.gif" alt="">
-							<img src="images/face/37.gif" alt="">
-							<img src="images/face/38.gif" alt="">
-							<img src="images/face/39.gif" alt="">
-							<img src="images/face/40.gif" alt="">
-							<img src="images/face/41.gif" alt="">
-							<img src="images/face/42.gif" alt="">
-							<img src="images/face/43.gif" alt="">
-							<img src="images/face/44.gif" alt="">
-							<img src="images/face/45.gif" alt="">
-							<img src="images/face/46.gif" alt="">
-							<img src="images/face/47.gif" alt="">
-							<img src="images/face/48.gif" alt="">
-							<img src="images/face/49.gif" alt="">
-							<img src="images/face/50.gif" alt="">
-							<img src="images/face/51.gif" alt="">
-							<img src="images/face/52.gif" alt="">
-							<img src="images/face/53.gif" alt="">
-							<img src="images/face/54.gif" alt="">
-							<img src="images/face/55.gif" alt="">
-							<img src="images/face/56.gif" alt="">
-							<img src="images/face/57.gif" alt="">
-							<img src="images/face/58.gif" alt="">
-							<img src="images/face/59.gif" alt="">
-							<img src="images/face/60.gif" alt="">
-							<img src="images/face/61.gif" alt="">
-							<img src="images/face/62.gif" alt="">
-							<img src="images/face/63.gif" alt="">
-							<img src="images/face/64.gif" alt="">
-							<img src="images/face/65.gif" alt="">
-							<img src="images/face/66.gif" alt="">
-							<img src="images/face/67.gif" alt="">
-							<img src="images/face/68.gif" alt="">
-							<img src="images/face/69.gif" alt="">
-							<img src="images/face/70.gif" alt="">
-							<img src="images/face/71.gif" alt="">
-							<img src="images/face/72.gif" alt="">
-							<img src="images/face/73.gif" alt="">
-							<img src="images/face/74.gif" alt="">
-							<img src="images/face/75.gif" alt="">
-						</div>
-					</div>
-				</div>
-				<div class="text">
-					<div class="col-xs-10 col-sm-11">
-						<input type="text" class="form-control" placeholder="What do you want to say?">
-					</div>
-					<div class="col-xs-2 col-sm-1">
-						<a id="subxx" role="button"><span class="glyphicon glyphicon-share-alt"></span></a>
-					</div>
+		<body leftmargin=0 topmargin=0>
+		<table border=0 cellpadding=0 cellspacing=0 width=800 height=600 scroll=no>
+		<tr><td align=center valign=center>
+			<table border=1 bgcolor=red>
+				<tr>
+					<td><font size="2" color="black">row 1, cell 1</font></td>
+					<td><font size="2" color="black">row 1, cell 2</font></td>
+				</tr>
+				<tr>
+					<td><font size="2" color="black">row 2, cell 1</font></td>
+					<td><font size="2" color="black">row 2, cell 2</font></td>
+				</tr>
+			</table>
+		<td></tr>
+		</table>
+		</body>
+ -->
+		
+		<div class="main container">
+			<div class="room_list">
+				<div class="col-xs-6 col-sm-6 col-md-12">
+					<a href="module6.html" class="thumbnail">
+						<img src="images/modules/m6.jpg" alt="module 6">
+					</a>
 				</div>
 			</div>
 		</div>
